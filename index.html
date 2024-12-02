@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Kerri's Final Project</title>
+    <meta charset="utf-8" />
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href=index.html>Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="https://github.com/GitHub">GitHub</a></li>
+            </ul>
+        </nav>
+
+        <h1>W23 CAlss</h1>
+
+
+        <h2>Introduction</h2>
+        <figure>
+            <img  src="https://static.scientificamerican.com/sciam/cache/file/2AE14CDD-1265-470C-9B15F49024186C10_source.jpg?w=1200" alt="I'm invisible">
+            <figcaption>Kerri Reed with her assistant Friday<br>yreedk@gvltec.edu</figcaption>
+        </figure>
+    </header>
+
+    
+    <h2>My Projects</h2>
+    <table class="portfolioLinks">
+        <caption>Projects I completed this semester</caption>
+        <colgroup>
+            <col id="chapters">
+            <col class="descriptions" span="1">
+        </colgroup>
+        <thead>
+            <tr id="headings">
+                <th class=>Project Links</th>
+                <th>What I Learned</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter1/Chapter1Files/tutorial/ct_about.html">Chapter 1</a></td>
+            <td id="chapter1Table">
+                    <p>HTML tagsLinking stylesheets Sectioning Elements Listsid Attribute
+                    </p>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter2/Chapter2Files/tutorial/tss_home.html">Chapter 2</a></td>
+            <td>Your description</td>
+        </tr>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter3/tutorial/pc_home.html">Chapter 3</a></td>
+            <td>Your description</td>
+        </tr>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter4/tutorial/tb_komatsu.html">Chapter 4</a></td>
+            <td>Your description</td>
+        </tr>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter5/tutorial/tf_home.html">Chapter 5</a></td>
+            <td>Your description</td>
+        </tr>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter6/tutorial/dlr_evenings.html">Chapter 6</a></td>
+            <td>Your description</td>
+        </tr>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter7/rb_survey.html">Chapter 7</a></td>
+            <td>Your description</td>
+        </tr>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter8/cp_royal.html">Chapter 8</a></td>
+            <td>Your description</td>
+        </tr>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter9/tny_clock.html">Chapter 9</a></td>
+            <td>Your description</td>
+        </tr>
+        <tr>
+            <td><a href="https://kmr54.github.io/Web-Server/chapter10/tutorial/lht_november.html">Chapter 10</a></td>
+            <td>Your description</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td colspan="2">Tutorials from HTML5 textbook (get name)</td>
+    </tfoot>
+    </table> 
+
+    <aside id="aside">
+        <h1>Videos that helped me learn HTML</h1>
+
+        <p>Helped me learn HTML</p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        
+        <p>Helped me with CSS</p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </aside>
+
+    <aside id="aside">
+        <h1>Random Audio Clip of One of  My Favorite Song</h1>
+
+        <p>Vanilla Twilight by Owl City (downloaded legally)</p>
+        <audio controls>
+            <source src="vanillaTwilight.ogg" type="audio/ogg">
+            <source src="vanillaTwilight.mp3" type="audio/mpeg">
+          <p>Sorry! Unsupported Broswer. Please update or use another.</p>
+          </audio>
+    </aside>
+
+<!--add javascript form submiy-->
+<form id="classSurvey">
+    <fieldset id="userInfo">
+        <legend>Thanks for stopping by! Please Enter the Following Information</legend>
+        
+        <div class="formRow">
+        <label for="name">Name</label>
+        <input name="userName" id="name" type="text">
+        </div>
+
+        <div class="formRow">
+        <label for="course">Course You're Taking</label>
+        <input name="course" id="course" type="text">
+        </div>
+
+        <div class="formRow">
+        <label for="grade">Grade Level</label>
+        <input name="grade" id="grade" type="text" list="gradeLevel">
+        <datalist id="gradeLevel">
+            <option value="Freshman">
+            <option value="Sophomore">
+            <option value="Junior">
+            <option value="Senior">
+        </datalist>
+        </div>
+
+        <div class="formRow">
+        <label for="mail">E-mail</label>
+        <input name="email" id="mail" type="email">
+        </div>
+
+        <div class="formRow">
+            <label for="visit">Date of Visit</label>
+            <input name="visitDate" id="visit" type="date">
+        </div>
+
+
+    </fieldset>
+    <fieldset id="courseInfo">
+        <legend>How do You Feel about HTML?</legend>
+
+        <div class="formRow">
+        <label for="favTopic">Favorite Topic</label>
+        <input name="favTopic" id="fTopic" type="text">
+        </div>
+
+        <div class="formRow">
+        <label for="mcTopic">Most Challenging Topic</label>
+        <input name="mcTopic" id="hTopic" type="text" placeholder="CSS">
+        </div>
+
+        <div class="formRow">
+            <label>Do you feel like you could create a website?</label>
+            <fieldset class="optGroup">
+                <label for="yes">Yes</label>
+                <input name="cYes" id="yes" value="Yes" type="radio" >
+                <label for="no">No</label>
+                <input name="cNo" id="no" value="No" type="radio" >
+            </fieldset>
+        </div>
+
+        <div class="formRow">
+            <label for="slider">How confident are you in your web development skills (10 being the highest)</label>
+            <input name="confidenceRange" id="slider" type="range" value="2"
+            step="1" min="0" max="10">
+        </div>
+
+        <div class="formRow">
+            <label for="feedbackBox">Questions/Comments/Concerns</label>
+            <textarea name="feedback" id="feedbackBox"></textarea>
+        </div>
+
+    </fieldset>
+
+    <div id="buttons">
+        <input type="submit" value="Submit Form" >
+        <input type="reset" value="Cancel">
+    </div>
+</form>
+
+</body>
+
+
+<footer>
+    &copy Kerri Reed, 11/23/2024 &nbsp; &#8226; &nbsp; Course: IST226-W02, Greenville Technical College.
+</footer>
+
+
+
+</html>

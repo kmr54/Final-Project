@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+html{
+    background: url(backgroundImage.jpeg) space;
+    background-color: #4D5FB8;
+}
+body{
+    border: 5px solid #4D5FB8;
+    margin-left:auto;
+    margin-right: auto;
+    color: black;
+    background: linear-gradient( #f88c75, #fabe6a, #ffe587,#fdfbd9,#ecb7ea, #4d5fb8);
+    max-width: 960px;
+    min-width: 640px;
+    width:95%;
+}
+
+body > header > img{ 
+    display: block;
+    width: 100%;
+}
+
+a:hover{
+background-color: gray;
+font-size: 20px;
+}
+
+figure{
+    margin: 20px auto 0px;
+    width: 80%;
+    background-color: black;
+}
+
+figure img{
+    display:block;
+    width: 100%;
+    transform: rotate(2.5deg);
+    filter: blur(1.3px) hue-rotate(90deg) brightness(1) drop-shadow(20px 10px 25px #4D5FB8);
+}
+
+figure figcaption{
+    background-color: white;
+    font-style: bold;
+    text-align: center;
+    border: 2px solid #7B94EC;
+}
+
+
+body > header > nav.navbar li{
+    width: 33.3333333%;
+}
+
+nav.navbar li{
+    display: block;
+    float: left;
+}
+
+nav.navbar a{
+    display: block;
+    text-align: center;
+}
+
+.navbar{
+    text-decoration: none;
+    background: url(navbarImage.jpg) no-repeat;
+    padding: 100px;
+}
+
+
+h1,h2{
+    background-color: #7B94EC;
+    color: WHITE;
+}
+
+/*
+table.headings{
+    font-size: 3em;
+    color: orange;
+}
+    */
+
+table.portfolioLinks{
+    background:white;
+    border: 10px inset #4E60BA;
+    font-size: 1em;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+table.portfolioLinks th, table.portfolioLinks td{
+    border: 1px solid gray;
+}
+
+table.portfolioLinks thead{
+    background-color: #f88c75;
+    color: black;
+    font-size: 1.5em;
+}
+
+table.portfolioLinks tfoot{
+    background-color: #4d5fb8;
+    color: white;
+}
+
+table.portfolioLinks tbody{
+    background: linear-gradient( #f88c75, #fabe6a, #ffe587,#fdfbd9,#ecb7ea, #4d5fb8);
+    color: black;
+}
+
+col#chapters{
+    font-size: 3em;
+    width: 16%;
+}
+
+col.descriptions{
+   background-color: orange;
+   width: 12%;
+}
+
+aside{
+    display: block;
+    float:right;
+    border: 5px double #7B94EC;
+    background-color: white;
+}
+
+footer{
+    text-align:center;
+    background-color: #4E60BA;;
+    color: white;
+}
+
+/* form styles 
+make sure to add javacript submit and reset
+*/
+/*
+div.formRow{
+
+}
+*/
+legend{
+    background-color: #4d5fb8;
+    color:white;
+    padding: 5px;
+}
+
+textarea{
+    margin-top: 10px;
+    height: 100px;
+    width: 95%;
+}
+
+div#buttons{
+    text-align: center;
+    width: 100%;
+}
+
+input[type='submit'], input[type='reset']{
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+}
